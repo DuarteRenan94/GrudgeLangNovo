@@ -1,5 +1,5 @@
 # O Grito
-Linguagem esotérica criada em 2021 por Renan Duarte, baseada em comandos brainfuck.
+Linguagem esotérica baseada em comandos brainfuck, que literalmente "mata cachorro a grito".
 
 | Comandos | Explicação |
 |----------|----------|

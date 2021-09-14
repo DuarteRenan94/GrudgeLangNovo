@@ -17,7 +17,8 @@ def next():
   p += 1
 
 def prev():
-  global 
+  global p
+  p -= 1
   
 def tokenize(texto):
   cd = []
