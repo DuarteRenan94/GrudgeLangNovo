@@ -1,13 +1,29 @@
 class Grudge:
-  def __init__(self, code):
+  def __init__(self):
     self.memory = [0 for _ in range(100)]
     self.p = 0
     self.code = []
-    for t in range(0, len(code),3):
-      self.code.append(code[t:(t+3)])
+    self._bf = {
+      '+' : 'aaa',
+      '-' : 'aaA',
+      '>' : 'aAa',
+      '<' : 'aAA',
+      '[' : 'Aaa',
+      ']' : 'AaA',
+      ',' : 'AAa',
+      '.' : 'AAA'
+    }
     self.sm = []
     self.abrt = None # índice do colchete de abertura
   
+  def get_code(self, code):
+    for t in range(0, len(code),3):
+      self.code.append(code[t:(t+3)])
+  
+  def bf_to_gdg(self, bf_code):
+    for c in bf_code:
+      self.code.append(self._bf[c])
+    
   def _increase(self):
     self.memory[self.p] += 1
   
