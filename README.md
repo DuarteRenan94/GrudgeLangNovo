@@ -1,5 +1,5 @@
 # O Grito
-Linguagem esotérica baseada em comandos brainfuck, que literalmente "mata cachorro a grito".
+Linguagem esotérica baseada em comandos brainfuck, que "mata cachorro a grito".
 
 | Comandos | Explicação |
 |----------|----------|

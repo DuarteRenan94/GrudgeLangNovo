@@ -1,4 +1,4 @@
-from Grudge import *
+from grudge_lang import *
 import sys
 
 opt = input('Olá, seja bem vindo ao interpretador d\'O Grito.\n Aperte: \ni para inserir código.\nb insira código brainfuck a ser traduzido e interpretado\n x para sair.\n$ ')
